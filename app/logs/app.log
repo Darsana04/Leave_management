@@ -14,3 +14,58 @@
 2026-08-28 04:30:06 | INFO | leave_app | User logged in: id=3, email=arjun@company.com
 2026-08-28 04:30:31 | WARNING | leave_app | JWT decode failed — invalid or expired token
 2026-08-28 04:30:38 | WARNING | leave_app | JWT decode failed — invalid or expired token
+2026-08-28 05:12:54 | INFO | leave_app | New user registered: id=2, email=arjun@test.com
+2026-08-28 05:12:55 | INFO | leave_app | New user registered: id=2, email=dup@test.com
+2026-08-28 05:12:56 | INFO | leave_app | New user registered: id=2, email=sneaky@test.com
+2026-08-28 05:12:56 | INFO | leave_app | New user registered: id=2, email=login@test.com
+2026-08-28 05:12:56 | INFO | leave_app | User logged in: id=2, email=login@test.com
+2026-08-28 05:12:57 | INFO | leave_app | New user registered: id=2, email=wrongpass@test.com
+2026-08-28 05:12:57 | WARNING | leave_app | Failed login attempt for email=wrongpass@test.com
+2026-08-28 05:12:58 | WARNING | leave_app | Failed login attempt for email=ghost@test.com
+2026-08-28 05:12:58 | INFO | leave_app | New user registered: id=2, email=apply@test.com
+2026-08-28 05:12:58 | INFO | leave_app | User logged in: id=2, email=apply@test.com
+2026-08-28 05:12:58 | INFO | leave_app | Leave applied: employee_id=2, type=CASUAL, days=3
+2026-08-28 05:12:59 | INFO | leave_app | New user registered: id=2, email=toolong@test.com
+2026-08-28 05:12:59 | INFO | leave_app | User logged in: id=2, email=toolong@test.com
+2026-08-28 05:13:00 | INFO | leave_app | New user registered: id=2, email=baddate@test.com
+2026-08-28 05:13:00 | INFO | leave_app | User logged in: id=2, email=baddate@test.com
+2026-08-28 05:13:01 | INFO | leave_app | New user registered: id=2, email=balance@test.com
+2026-08-28 05:13:01 | INFO | leave_app | User logged in: id=2, email=balance@test.com
+2026-08-28 05:13:01 | INFO | leave_app | New user registered: id=2, email=pendingbal@test.com
+2026-08-28 05:13:02 | INFO | leave_app | User logged in: id=2, email=pendingbal@test.com
+2026-08-28 05:13:02 | INFO | leave_app | Leave applied: employee_id=2, type=CASUAL, days=5
+2026-08-28 05:13:02 | INFO | leave_app | New user registered: id=2, email=noLop@test.com
+2026-08-28 05:13:03 | INFO | leave_app | User logged in: id=2, email=noLop@test.com
+2026-08-28 05:13:03 | INFO | leave_app | Leave applied: employee_id=2, type=CASUAL, days=3
+2026-08-28 05:13:03 | INFO | leave_app | User logged in: id=1, email=manager@test.com
+2026-08-28 05:13:03 | INFO | leave_app | Leave approved: request_id=1, employee_id=2, paid_days=3.0, lop_days=0.0, approved_by=1
+2026-08-28 05:13:03 | INFO | leave_app | New user registered: id=2, email=lop@test.com
+2026-08-28 05:13:04 | INFO | leave_app | User logged in: id=2, email=lop@test.com
+2026-08-28 05:13:04 | INFO | leave_app | Leave applied: employee_id=2, type=CASUAL, days=15
+2026-08-28 05:13:04 | INFO | leave_app | User logged in: id=1, email=manager@test.com
+2026-08-28 05:13:04 | INFO | leave_app | Leave approved: request_id=1, employee_id=2, paid_days=12.0, lop_days=3.0, approved_by=1
+2026-08-28 05:13:04 | INFO | leave_app | New user registered: id=2, email=double@test.com
+2026-08-28 05:13:05 | INFO | leave_app | User logged in: id=2, email=double@test.com
+2026-08-28 05:13:05 | INFO | leave_app | Leave applied: employee_id=2, type=CASUAL, days=2
+2026-08-28 05:13:05 | INFO | leave_app | User logged in: id=1, email=manager@test.com
+2026-08-28 05:13:05 | INFO | leave_app | Leave approved: request_id=1, employee_id=2, paid_days=2.0, lop_days=0.0, approved_by=1
+2026-08-28 05:13:06 | INFO | leave_app | New user registered: id=2, email=reject@test.com
+2026-08-28 05:13:06 | INFO | leave_app | User logged in: id=2, email=reject@test.com
+2026-08-28 05:13:06 | INFO | leave_app | Leave applied: employee_id=2, type=SICK, days=2
+2026-08-28 05:13:06 | INFO | leave_app | User logged in: id=1, email=manager@test.com
+2026-08-28 05:13:06 | INFO | leave_app | Leave rejected: request_id=1, employee_id=2, rejected_by=1
+2026-08-28 05:13:07 | INFO | leave_app | New user registered: id=2, email=selfapprove@test.com
+2026-08-28 05:13:07 | INFO | leave_app | User logged in: id=2, email=selfapprove@test.com
+2026-08-28 05:13:07 | INFO | leave_app | Leave applied: employee_id=2, type=CASUAL, days=2
+2026-08-28 05:13:07 | WARNING | leave_app | Unauthorized manager-action attempt by user_id=2
+2026-08-28 05:13:08 | INFO | leave_app | New user registered: id=2, email=nomgr@test.com
+2026-08-28 05:13:08 | INFO | leave_app | User logged in: id=2, email=nomgr@test.com
+2026-08-28 05:13:08 | WARNING | leave_app | Unauthorized manager-action attempt by user_id=2
+2026-08-28 05:13:09 | INFO | leave_app | New user registered: id=3, email=teamtest@test.com
+2026-08-28 05:13:09 | INFO | leave_app | User logged in: id=3, email=teamtest@test.com
+2026-08-28 05:13:09 | INFO | leave_app | Leave applied: employee_id=3, type=CASUAL, days=2
+2026-08-28 05:13:09 | INFO | leave_app | User logged in: id=2, email=othermgr@test.com
+2026-08-28 05:13:10 | INFO | leave_app | New user registered: id=2, email=myteam@test.com
+2026-08-28 05:13:10 | INFO | leave_app | User logged in: id=2, email=myteam@test.com
+2026-08-28 05:13:10 | INFO | leave_app | Leave applied: employee_id=2, type=CASUAL, days=2
+2026-08-28 05:13:10 | INFO | leave_app | User logged in: id=1, email=manager@test.com
