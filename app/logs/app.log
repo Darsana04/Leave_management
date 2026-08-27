@@ -2,3 +2,15 @@
 2026-08-28 03:52:01 | INFO | leave_app | Application started
 2026-08-28 03:53:26 | INFO | leave_app | Application started
 2026-08-28 03:54:49 | INFO | leave_app | Seed: manager created id=2
+2026-08-28 04:15:48 | INFO | leave_app |  Leave Management API starting up
+2026-08-28 04:17:38 | INFO | leave_app | New user registered: id=3, email=arjun@company.com
+2026-08-28 04:18:23 | INFO | leave_app | User logged in: id=3, email=arjun@company.com
+2026-08-28 04:22:45 | INFO | leave_app |  Leave Management API starting up
+2026-08-28 04:24:12 | INFO | leave_app | New user registered: id=4, email=babu@company.com
+2026-08-28 04:24:46 | INFO | leave_app | User logged in: id=3, email=arjun@company.com
+2026-08-28 04:25:27 | INFO | leave_app | Leave applied: employee_id=3, type=CASUAL, days=3
+2026-08-28 04:26:47 | INFO | leave_app | User logged in: id=2, email=manager1@company.com
+2026-08-28 04:29:16 | INFO | leave_app | Leave approved: request_id=1, employee_id=3, paid_days=3.0, lop_days=0.0, approved_by=2
+2026-08-28 04:30:06 | INFO | leave_app | User logged in: id=3, email=arjun@company.com
+2026-08-28 04:30:31 | WARNING | leave_app | JWT decode failed — invalid or expired token
+2026-08-28 04:30:38 | WARNING | leave_app | JWT decode failed — invalid or expired token

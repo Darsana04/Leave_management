@@ -1,7 +1,7 @@
 from datetime import date
 from typing import Optional
 from pydantic import BaseModel, ConfigDict
-from app.models import UserRole, LeaveType, LeaveStatus
+from models import UserRole, LeaveType, LeaveStatus
 
 
 # ============================================================

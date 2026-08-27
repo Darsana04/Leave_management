@@ -2,12 +2,12 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
 
-from app.database import get_db
-from app.models import User, LeaveRequest, LeaveBalance, LeaveStatus
-from app.schemas import LeaveRequestCreate, LeaveRequestOut, LeaveBalanceOut
-from app.auth import get_current_user, require_manager
-from app.services import apply_leave, approve_leave, reject_leave, get_balance_summary
-from app.logger import logger
+from database import get_db
+from models import User, LeaveRequest, LeaveBalance, LeaveStatus
+from schemas import LeaveRequestCreate, LeaveRequestOut, LeaveBalanceOut
+from auth import get_current_user, require_manager
+from services import apply_leave, approve_leave, reject_leave, get_balance_summary
+from logger import logger
 
 router = APIRouter(tags=["Leaves"])
 
