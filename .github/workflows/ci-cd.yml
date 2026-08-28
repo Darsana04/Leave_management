@@ -32,9 +32,9 @@ jobs:
       - name: Run tests
         working-directory: app
         env:
-          PYTHONPATH: .
+          PYTHONPATH: ${{ github.workspace }}/app
         run: |
-          pytest
+          python -m pytest
 
   deploy:
     needs: test
