@@ -1,0 +1,29 @@
+# Secrets
+app/.env
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+app/logs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
