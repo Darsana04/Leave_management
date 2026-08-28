@@ -9,6 +9,8 @@ on:
     branches:
       - master
 
+  workflow_dispatch:
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -29,6 +31,8 @@ jobs:
 
       - name: Run tests
         working-directory: app
+        env:
+          PYTHONPATH: .
         run: |
           pytest
 
@@ -39,4 +43,5 @@ jobs:
 
     steps:
       - name: Deploy to Render
-        run: curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
+        run: |
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
