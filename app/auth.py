@@ -115,7 +115,7 @@ from logger import logger
 # ---------------------------------------------------------
 SECRET_KEY = os.getenv("JWT_SECRET_KEY", "dev-only-fallback-change-me")
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 8   # 8 hours — fine for a demo/assessment
+ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 8   # 8 hours — fine for a demo
 
 # ---------------------------------------------------------
 # Password hashing
